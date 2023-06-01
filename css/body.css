@@ -1,0 +1,16 @@
+.body{
+    background-color:#121735
+}
+ 
+.map-div{
+    width: 50%;
+    margin:auto;
+    display: flex;
+    place-content:right center;
+
+}
+
+.map-div :hover{
+    fill:rgb(240, 248, 7);
+    opacity:1;
+}
