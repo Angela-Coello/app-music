@@ -1,0 +1,24 @@
+body{
+    background-color: #121735;
+}
+
+.pruebas{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-nav .nav-link{
+    color: #7CF49E;
+}
+
+.navbar-toggler{
+    background-color: #7CF49E;
+}
+
+#drum5-logo{
+    margin-left: auto;
+}
+
+#titleMusic{
+    color: white;
+}
