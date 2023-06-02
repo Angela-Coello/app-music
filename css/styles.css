@@ -1,11 +1,14 @@
+/*General */
+
 body{
-    background-color: #121735;
+    background-color: rgba(25, 6, 48, 0.984);
 }
 
-.pruebas{
-    display: flex;
-    justify-content: space-between;
+h1,h2,p{
+    color: white;
 }
+
+/* Header*/
 
 .navbar-nav .nav-link{
     color: #7CF49E;
@@ -15,10 +18,16 @@ body{
     background-color: #7CF49E;
 }
 
-#drum5-logo{
-    margin-left: auto;
+/* Main */
+
+.map-div{
+    width: 50%;
+    height: 50%;
 }
 
-#titleMusic{
-    color: white;
+a :active{
+    fill:#e6892c;
+    opacity: 0.25;
+    outline-color:darkorange;
+    stroke-opacity: 1;
 }
