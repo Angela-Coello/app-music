@@ -28,7 +28,6 @@ document.addEventListener("DOMContentLoaded", function(e) {
     }
 
 
-
 //Función para emitir sonido al presionar una tecla
 function keydownSound(event) {
     let audio;
