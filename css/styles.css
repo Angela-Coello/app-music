@@ -26,8 +26,6 @@ h1,h2,p{
 }
 
 a :active{
-    fill:#e6892c;
-    opacity: 0.25;
-    outline-color:darkorange;
-    stroke-opacity: 1;
+    fill:rgb(251, 209, 129);
+    opacity: 0.2;
 }
