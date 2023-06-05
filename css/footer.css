@@ -4,7 +4,7 @@
  
 }
 
-.container {
+.footer {
   background-color: #7CF49E;
 }
 
@@ -14,7 +14,11 @@
 
 #nombres {
   color: rgba(25, 6, 48, 0.984);
+  width: 90%;
   
+}
+#logo{
+  width: 10%;
 }
 
 
