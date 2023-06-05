@@ -17,6 +17,7 @@ h1,h2,p{
     background-color: #7CF49E;
 }
 
+
 /* Main */
 
 
@@ -28,6 +29,11 @@ a :active{
 }
 
 
-#contenedor_imagenes {
+#contenedor-imagenes {
    width: 70%;
+}
+
+.large_logo img{
+    width: 50%;
+    height: auto;
 }
