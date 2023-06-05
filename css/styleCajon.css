@@ -31,3 +31,8 @@ a :active{
 #contenedor_imagenes {
    width: 70%;
 }
+
+.large_logo img{
+    width: 60%;
+    height: auto;
+}
