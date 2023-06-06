@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function(e) {
   */
     function playSound(e) {
         e.preventDefault();
-        const audio = new Audio(`media/sounds/${this.id}.wav`);
+        const audio = new Audio(`../media/sounds/${this.id}.wav`);
         audio.play();
     }
 
@@ -33,43 +33,43 @@ function keydownSound(event) {
     let audio;
     switch (event.keyCode) {
         case 66: {
-            audio = new Audio('media/sounds/kick.wav');
+            audio = new Audio('../media/sounds/kick.wav');
             audio.play();
             break;
         }
 
         case 78: {
-            audio = new Audio('media/sounds/tom3.wav');
+            audio = new Audio('../media/sounds/tom3.wav');
             audio.play();
             break;
         }
 
         case 71: {
-            audio = new Audio('media/sounds/hihat.wav');
+            audio = new Audio('../media/sounds/hihat.wav');
             audio.play();
             break;
         }
 
         case 72: {
-            audio = new Audio('media/sounds/box.wav');
+            audio = new Audio('../media/sounds/box.wav');
             audio.play();
             break;
         }
             
         case 74: {
-            audio = new Audio('media/sounds/ride.mp3');
+            audio = new Audio('../media/sounds/ride.mp3');
             audio.play();
             break;
         }
 
         case 85: {
-            audio = new Audio('media/sounds/tom2.wav');
+            audio = new Audio('../media/sounds/tom2.wav');
             audio.play();
             break;
         }
 
         case 89: {
-            audio = new Audio('media/sounds/tom1.wav');
+            audio = new Audio('../media/sounds/tom1.wav');
             audio.play();
             break;
         }
