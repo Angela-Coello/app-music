@@ -1,0 +1,39 @@
+
+body{
+    background-color: rgba(25, 6, 48, 0.984);
+}
+
+h1,h2,p{
+    color: white;
+}
+
+/* Header*/
+
+.navbar-nav .nav-link{
+    color: #7CF49E;
+}
+
+.navbar-toggler{
+    background-color: #7CF49E;
+}
+
+
+/* Main */
+
+
+a :active{
+    fill:#e6892c;
+    opacity: 0.25;
+    outline-color:darkorange;
+    stroke-opacity: 1;
+}
+
+
+#contenedor-imagenes {
+   width: 70%;
+}
+
+.large_logo img{
+    width: 30%;
+    height: auto;
+}
