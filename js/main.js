@@ -10,8 +10,8 @@ document.addEventListener("DOMContentLoaded", function(e) {
        los recorremos y aplicamos un listener que será la función playSound
     */
   
-    theSound.forEach(function(el, idx) {
-      el.addEventListener("click", playSound, false)
+    theSound.forEach(function(el) {
+      el.addEventListener("click", playSound)
     });
   
 });
